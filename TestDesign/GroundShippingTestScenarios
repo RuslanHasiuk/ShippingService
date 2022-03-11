@@ -1,7 +1,14 @@
 It's super important to test all possible scenarios of given weight.
 To do this let's use well known Test Design techniques as Equivalence Partitioning and Boundary Values (https://www.guru99.com/equivalence-partitioning-boundary-value-analysis.html)
 
-Based on developed formula: [cost = weight * price_per_pound + flat_charge] --> We got following Checklist:
+When we analyzing our developed formula: [cost = weight * price_per_pound + flat_charge], we see there are for  Equivalence Classes:
+1 -- from 0 to 2(including);
+2 -- from 2.01 to(including);
+3 -- from 6.01 to 10(including);
+4 -- from 10.01 to infinity;
+
+Then we need to take into account boundaries between equivalence partitions and test each boundary value of 'weight' based of that analysis.
+So finally we got following Checklist:
 # 1.99: 1.99 * 1.50 + 20.00 => Output Should be $22.98500
 # 2:  2 * 1.50 + 20.00 => Output Should be $23.0
 # 2.01:  2.01 * 3.00 + 20.00 => Output Should be $26.03

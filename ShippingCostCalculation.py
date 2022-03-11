@@ -1,6 +1,7 @@
-weight = 1
+weight = 8.4
 
 # Ground Shipping
+
 flat_charge = 20.00
 price_per_pound = 1
 
@@ -13,6 +14,7 @@ elif 6 < weight <= 10:
 else:
     price_per_pound *= 4.75
 
-cost = weight * price_per_pound + flat_charge
+cost_of_ground_shipping = weight * price_per_pound + flat_charge
 
-print(cost)
+print(cost_of_ground_shipping)
+
