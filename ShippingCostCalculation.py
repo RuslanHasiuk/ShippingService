@@ -16,5 +16,8 @@ else:
 
 cost_of_ground_shipping = weight * price_per_pound + flat_charge
 
-print(cost_of_ground_shipping)
+cost_of_premium_ground_shipping = 125.00
 
+
+print('Cost of ground shipping: $', cost_of_ground_shipping)
+print('Cost of premium ground shipping: $', cost_of_premium_ground_shipping)
