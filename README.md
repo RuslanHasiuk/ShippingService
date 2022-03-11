@@ -8,5 +8,5 @@ Shipping Service has several different options for a customer to ship their pack
 ![Shipping Service](https://user-images.githubusercontent.com/54449805/157841453-fd6b0440-f3bf-4eaf-b3d3-846ba8a90685.png)
 
 OUTPUT: So we gonna make 2 important things:
-1) Write a Python program that asks the user for the weight of their package and then tells them which method of shipping is cheapest and how much it will cost to ship their package using Sal’s Shippers.
-2) Perform Test Design Techniques to make sure all possible scenarios gonna work correctly!
+1) Write a Python program that asks the user for the weight of their package and then tells them which method of shipping is cheapest and how much it will cost to ship their package using provided Shippin company.
+2) Perform Test Design Techniques to make sure that all possible scenarios wll definitely work correctly!
