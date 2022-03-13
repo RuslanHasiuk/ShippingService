@@ -1,7 +1,8 @@
 It's super important to test all possible scenarios of given weight.
 To do this let's use well known Test Design techniques as Equivalence Partitioning and Boundary Values (https://www.guru99.com/equivalence-partitioning-boundary-value-analysis.html)
 
-When we analyzing our developed formula: [cost = weight * price_per_pound + flat_charge], we see there are for  Equivalence Classes:
+                                            Ground Shipping:
+Based on given requirements (in tables) , we analyzing our developed formula: [cost = weight * price_per_pound + flat_charge], we see there are for  Equivalence Classes:
 1 -- from 0 to 2(including);
 2 -- from 2.01 to(including);
 3 -- from 6.01 to 10(including);
@@ -19,3 +20,22 @@ So finally we got following Checklist:
 # 10:  10 * 4.00 + 20.00 => Output Should be $60
 # 10.01: 10.01 * 4.75 + 20.00 => Output Should be $67.5475
 
+
+                                        Ground Shipping Premium:
+The price of premium ground shipping does not change with the weight of the package.
+So it will be always $125.00
+
+
+                                        Drone Shipping:
+As we see in implemented code, Cost of drone shipping: [cost_of_drone_shipping = weight_for_drone_shipping * price_per_pound_for_drone_shipping + flat_charge_for_drone_shipping]
+So Test Design will quite similar ' Ground Shipping', only with another values.
+Checklit going to be the same:
+# 1.99: 1.99 * 4.50 + 00.00 => Output Should be 8.955
+# 2...
+# 2.01
+# 5.99
+# 6
+# 6.01
+# 9.99
+# 10
+# 10.01
