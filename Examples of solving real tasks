@@ -1,0 +1,16 @@
+We got firsts 2 requests for customers. Let's resolve it!
+
+1) What is the cheapest method of shipping a 4.8 pound package and how much would it cost?
+To respond it, we only need to put 4.8 value for 'weight' and 'weight_for_drone_shipping' varuables and excecute our impelented code:
+Result:
+Cost of ground shipping: $ 34.4
+Cost of premium ground shipping: $ 125.0
+Cost of drone shipping: $ 43.199999999999996
+Decision ->  For 4.8 pounds, ground shipping is the cheapest (see attachment in readme file 'First request')
+
+2) What is the cheapest method of shipping a 41.5 pound package and how much would it cost?
+Result:
+Cost of ground shipping: $ 217.125
+Cost of premium ground shipping: $ 125.0
+Cost of drone shipping: $ 591.375
+Decision ->  For 41.5 pounds, ground shipping premium is the cheapest ((see attachment in readme file 'Second request')
